@@ -1,9 +1,9 @@
-# GPU-Accelerated-Telco-Customer-Churn-Prediction
+# 🚀 GPU-Accelerated-Telco-Customer-Churn-Prediction
 
 This project implements an end-to-end machine learning pipeline to predict customer churn using the Telco Customer Churn dataset.
 The notebook demonstrates GPU-accelerated model training using XGBoost, along with exploratory data analysis, model evaluation, and a Streamlit-based interface.
 
-## Project Contents
+## 📁 Project Contents
 ```
 GPU-Accelerated Telco Customer Churn Prediction
 ├── churn_gpu.ipynb
@@ -11,7 +11,7 @@ GPU-Accelerated Telco Customer Churn Prediction
 └── README.md
 ```
 
-## Objectives
+## 🎯 Objectives
 
 • Perform exploratory data analysis (EDA) on telecom customer data
 
@@ -23,7 +23,7 @@ GPU-Accelerated Telco Customer Churn Prediction
 
 • Demonstrate practical, applied machine learning workflow
 
-## Technologies Used
+## 🧰 Technologies Used
 
 •Python
 
@@ -39,7 +39,7 @@ GPU-Accelerated Telco Customer Churn Prediction
 
 • PyTorch (GPU availability check)
 
-## Dataset
+## 📊 Dataset
 
 Name: Telco Customer Churn Dataset
 
@@ -49,7 +49,7 @@ Target Variable: Churn (Yes / No)
 
 The dataset is included in this repository for learning and academic purposes.
 
-## Workflow Overview
+## 🔄 Workflow Overview
 
 1. GPU availability check
 
@@ -77,7 +77,7 @@ The dataset is included in this repository for learning and academic purposes.
     
     • Confusion matrix
 
-## How to Run the Notebook
+## ▶️ How to Run the Notebook
 
 ### 1. Clone the repository:
 ``` bash
@@ -96,7 +96,7 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn torch
 No API keys or credentials are required for these steps.
 
 
-## Optional: Run the Streamlit Web Application
+### 4. 🌐 Optional: Run the Streamlit Web Application
 
 The notebook also demonstrates deploying the trained model using Streamlit.
 
@@ -115,7 +115,7 @@ ngrok config add-authtoken "YOUR_NGROK_TOKEN"
 
 For GPU execution, ensure CUDA-enabled GPU and compatible XGBoost version are installed.
 
-## Results
+## 📈 Results
 
 • The model achieves strong predictive performance on unseen test data.
 
