@@ -2,12 +2,15 @@
 
 This project implements an end-to-end machine learning pipeline to predict customer churn using the Telco Customer Churn dataset.
 The notebook demonstrates GPU-accelerated model training using XGBoost, along with exploratory data analysis, model evaluation, and a Streamlit-based interface.
+
+## Project Contents
 ```
-Project Contents
+GPU-Accelerated Telco Customer Churn Prediction
 ├── churn_gpu.ipynb
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
 └── README.md
 ```
+
 ## Objectives
 
 • Perform exploratory data analysis (EDA) on telecom customer data
@@ -76,20 +79,20 @@ The dataset is included in this repository for learning and academic purposes.
 
 ## How to Run the Notebook
 
-### Clone the repository:
-
+### 1. Clone the repository:
+``` bash
 git clone https://github.com/your-username/your-repo-name.git
+```
 
-
-### Open the notebook:
-
+### 2. Open the notebook:
+``` bash
 jupyter notebook churn_gpu.ipynb
+```
 
-
-### Install required dependencies (if not already installed):
-
+### 3. Install required dependencies (if not already installed):
+``` bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn torch
-
+```
 No API keys or credentials are required for these steps.
 
 
@@ -108,14 +111,14 @@ To run this part:
 ngrok config add-authtoken "YOUR_NGROK_TOKEN"
 ```
 
-### Run all cells in order.
+### 5. Run all cells in order.
 
 For GPU execution, ensure CUDA-enabled GPU and compatible XGBoost version are installed.
 
 ## Results
 
-The model achieves strong predictive performance on unseen test data.
+• The model achieves strong predictive performance on unseen test data.
 
-GPU acceleration significantly reduces training time when available.
+• GPU acceleration significantly reduces training time when available.
 
-Feature importance analysis highlights key drivers of customer churn.
+• Feature importance analysis highlights key drivers of customer churn.
